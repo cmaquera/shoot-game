@@ -15,6 +15,9 @@ var contentTypes={
     ".m4a":"audio/mp4",
     ".oga":"audio/ogg"
 };
+/*
+http.listen(1337,"10.142.252.139");
+*/
 
 http.listen(parseInt(serverPort,10), function(){
     console.log('Server is listening on port ' + serverPort);
